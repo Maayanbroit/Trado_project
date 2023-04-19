@@ -1,31 +1,20 @@
-Trado_project
-Trado_project is a web-based e-commerce platform that allows users to buy and sell items in a secure and efficient manner. It is built using Python, Django, and Bootstrap, and provides a user-friendly interface for managing products, orders, and payments.
-Features:
-User authentication and authorization for secure access
-Product management, including CRUD (Create, Read, Update, Delete) operations
-Shopping cart functionality for adding and managing products
-Checkout process for placing orders
-Payment integration with popular payment gateways
-Order management for tracking and fulfilling orders
-Responsive design using Bootstrap for seamless viewing on different devices
-Installation:
-Clone the repository using git clone https://github.com/Maayanbroit/Trado_project.git
-Change to the project directory with cd Trado_project
-Create and activate a virtual environment with python -m venv venv and source venv/bin/activate
-Install the project dependencies with pip install -r requirements.txt
-Create a local database with python manage.py migrate
-Create a superuser for accessing the admin panel with python manage.py createsuperuser
-Start the development server with python manage.py runserver
-Access the Trado_project in your web browser at http://127.0.0.1:8000/ and enjoy!
-Contributing:
-If you would like to contribute to Trado_project, please follow these steps:
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and write tests if applicable.
-Run the tests using python manage.py test.
-Commit your changes and push them to your fork.
-Create a pull request to the main branch of the original repository.
+This is an automation QA project for the TRADO website, built using Selenium, ChromeDriver, and Unittest.
 
-Contact:
-If you have any questions, suggestions, or issues, please feel free to contact me at maayan1234b@gmail.com.
-Thank you for using Trado_project!
+Project Description
+
+The project is designed to automate testing of the TRADO website. It includes a suite of tests that cover various aspects of the site's functionality, such as logging in, navigating the site, adding items to the cart, and making purchases. Installation
+
+To use this project, you will need to have the following installed on your machine: 
+Python 3.x Selenium ChromeDriver To install Selenium, run the following command in your terminal: pip install selenium
+
+To install ChromeDriver, visit the following website and download the appropriate version for your operating system: https://sites.google.com/a/chromium.org/chromedriver/downloads Usage
+
+To run the tests, navigate to the root directory of the project and run the following command in your terminal: python -m unittest discover -v his will run all of the tests in the project and provide verbose output in the terminal.
+
+Contributing
+
+If you would like to contribute to this project, please fork the repository and submit a pull request.
+
+Credits
+
+This project was created by Maayan Broitman.
