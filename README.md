@@ -1,4 +1,4 @@
-This is an automation QA project for the TRADO website, built using Selenium, ChromeDriver, and Unittest.
+This is an automation QA project for the TRADO website, built using Selenium, ChromeDriver.
 
 Project Description
 
